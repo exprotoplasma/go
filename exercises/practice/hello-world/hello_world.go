@@ -1,6 +1,7 @@
-package greeting
+package  main
 
+import "fmt"
 // HelloWorld greets the world.
-func HelloWorld() string {
-	return "Goodbye, Mars!"
+func main(){
+        fmt.Println("Hello, World!")
 }
